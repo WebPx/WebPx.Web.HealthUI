@@ -11,11 +11,9 @@
 		<Title>WebPx Web HealthUI Razor</Title>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
 		<PackageLicenseFile>LICENSE</PackageLicenseFile>
+		<PackageProjectUrl>https://webpx.github.io/WebPx.Web.HealthUI/</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/WebPx/WebPx.Web.HealthUI</RepositoryUrl>
 	</PropertyGroup>
-
-	<ItemGroup>
-	  <Compile Remove="HealtthUIRazorConfigurationOptions.cs" />
-	</ItemGroup>
 
 	<ItemGroup>
 		<FrameworkReference Include="Microsoft.AspNetCore.App" />
