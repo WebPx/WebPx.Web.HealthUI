@@ -20,7 +20,7 @@ a. You can add the required nuget packages to your project file
 
 ```xml
   <ItemGroup>
-    <PackageReference Include="Microsoft.Extensions.Diagnostics.HealthChecks" Version="0.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Diagnostics.HealthChecks" Version="8.0.12" />
     <PackageReference Include="WebPx.Web.HealthUI" Version="1.0.0" />
   </ItemGroup>
 ```

@@ -6,4 +6,4 @@ The Health Check UI is a basic UI that shows the Sevice Status, the Health Check
 
 The following scree shot shows the Health Check UI in action.
 
-![Health Check UI Sample.](/images/HealthCheckSample.png)
+![Health Check UI Sample.](../images/HealthCheckSample.png)
