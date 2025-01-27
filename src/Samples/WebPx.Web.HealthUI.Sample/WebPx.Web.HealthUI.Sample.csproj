@@ -15,8 +15,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\WebPx.Web.HealthUI.Razor\WebPx.Web.HealthUI.Razor.csproj" />
     <PackageReference Include="Microsoft.Extensions.Diagnostics.HealthChecks" Version="8.0.12" />
+    <PackageReference Include="WebPx.Web.HealthUI.Razor" Version="1.0.0" />
   </ItemGroup>
 
 </Project>
