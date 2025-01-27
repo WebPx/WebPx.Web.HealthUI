@@ -34,6 +34,9 @@ namespace WebPx.Web.HealthUI.Sample
                 app.UseHsts();
             }
 
+            // Configure the Health Check Default global check
+            app.MapHealthChecks("/health");
+
             app.UseHttpsRedirection();
             app.UseStaticFiles();
 

@@ -12,7 +12,7 @@ a. You can add the required nuget packages to your project file
 
 ```xml
   <ItemGroup>
-    <PackageReference Include="Microsoft.Extensions.Diagnostics.HealthChecks" Version="9.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Diagnostics.HealthChecks" Version="8.0.12" />
     <PackageReference Include="WebPx.Web.HealthUI" Version="1.0.0" />
   </ItemGroup>
 ```
@@ -27,7 +27,7 @@ install-package WebPx.Web.HealthUI
 c. Or Install the packages in the command prompt
  
 ```
-dotnet add package Microsoft.Extensions.Diagnostics.HealthChecks --version 9.0.1
+dotnet add package Microsoft.Extensions.Diagnostics.HealthChecks --version 8.0.12
 dotnet add package WebPx.Web.HealthUI --version 1.0.0
 ```
 
