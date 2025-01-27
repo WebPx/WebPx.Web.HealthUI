@@ -1,14 +1,6 @@
 # WebPx.Web.HealthUI
 A library for displaying a basic health check UI for your web application.
 
-## Introduction
-
-The Health Check UI is a basic UI that shows ou the Sevice Status, the Health Checks and the Health Check Results, so that you can easily see the status of your application.
-
-The following scree shot shows the Health Check UI in action.
-
-![Health Check UI Sample.](help/images/HealthCheckSample.png)
-
 ## Setup
 
 To use the Health Checks in your project you can add both libraries 

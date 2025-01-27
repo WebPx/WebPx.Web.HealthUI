@@ -1,22 +1,14 @@
-# WebPx.Web.HealthUI
-A library for displaying a basic health check UI for your web application.
-
-## Introduction
-
-The Health Check UI is a basic UI that shows ou the Sevice Status, the Health Checks and the Health Check Results, so that you can easily see the status of your application.
-
-The following scree shot shows the Health Check UI in action.
-
-![Health Check UI Sample.](help/images/HealthCheckSample.png)
-
-## Setup
+---
+_layout2: landing
+---
+# Getting Started
 
 To use the Health Checks in your project you can add both libraries 
 [Microsoft.Extensions.Diagnostics.HealthChecks] and [WebPx.Web.HealthUI] to your project.
 
 1. Add required Nuget packages
 
-a. You can add the required nuget packages to your project file
+  - You can add the required nuget packages to your project file
 
 ```xml
   <ItemGroup>
@@ -25,14 +17,14 @@ a. You can add the required nuget packages to your project file
   </ItemGroup>
 ```
 
-b. Or Install the packages in the Package Manager:
+  - Or Install the packages in the Package Manager:
 
 ```
 install-package Microsoft.Extensions.Diagnostics.HealthChecks
 install-package WebPx.Web.HealthUI
 ```
 
-c. Or Install the packages in the command prompt
+  - Or Install the packages in the command prompt
  
 ```
 dotnet add package Microsoft.Extensions.Diagnostics.HealthChecks --version 9.0.1

@@ -1,0 +1,53 @@
+{
+  "$schema": "https://raw.githubusercontent.com/dotnet/docfx/main/schemas/docfx.schema.json",
+  "metadata": [
+    {
+      "src": [
+        {
+          "files": [ "*/bin/Release/net8.0/*.dll" ],
+          "src": "../src"
+        }
+      ],
+      "dest": "api",
+      "filter": "filter.yml",
+      "properties": {
+        "TargetFramework": "net8.0"
+      }
+    }
+  ],
+  "build": {
+    "content": [
+      {
+        "files": [
+          "**/*.{md,yml}"
+        ],
+        "exclude": [
+          "_site/**"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "images/**"
+        ]
+      }
+    ],
+    "output": "../docs",
+    "template": [
+      "default",
+      "modern"
+    ],
+    "globalMetadata": {
+      "_appName": "WebPx Web Health UI",
+      "_appTitle": "WebPx Web HealthUI",
+      "_enableSearch": true,
+      "pdf": false
+    },
+    "sitemap": {
+      "baseUrl": "https://dotnet.github.io/docfx",
+      "priority": 0.1,
+      "changefreq": "monthly"
+    }
+  }
+}

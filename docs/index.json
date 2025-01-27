@@ -1,0 +1,37 @@
+{
+  "api/Microsoft.Extensions.DependencyInjection.HealthUIRazorConfigurationExtensions.html": {
+    "href": "api/Microsoft.Extensions.DependencyInjection.HealthUIRazorConfigurationExtensions.html",
+    "title": "Class HealthUIRazorConfigurationExtensions | WebPx Web HealthUI",
+    "keywords": "Class HealthUIRazorConfigurationExtensions Namespace Microsoft.Extensions.DependencyInjection Assembly WebPx.Web.HealthUI.Razor.dll Class with extensions to configure the Razor UI for the hosted services public static class HealthUIRazorConfigurationExtensions Inheritance object HealthUIRazorConfigurationExtensions Inherited Members object.GetType() object.MemberwiseClone() object.ToString() object.Equals(object) object.Equals(object, object) object.ReferenceEquals(object, object) object.GetHashCode() Methods AddHealthUI(IServiceCollection, Action<HealthUISettings>?, IConfiguration?) Method to add the hosted services UI configuration to the service collection public static IServiceCollection AddHealthUI(this IServiceCollection services, Action<HealthUISettings>? action = null, IConfiguration? configuration = null) Parameters services IServiceCollection The service collection action Action<HealthUISettings> The action to configure the settings configuration IConfiguration The configuration provider to bind to Returns IServiceCollection Returns the service collection"
+  },
+  "api/Microsoft.Extensions.DependencyInjection.html": {
+    "href": "api/Microsoft.Extensions.DependencyInjection.html",
+    "title": "Namespace Microsoft.Extensions.DependencyInjection | WebPx Web HealthUI",
+    "keywords": "Namespace Microsoft.Extensions.DependencyInjection Classes HealthUIRazorConfigurationExtensions Class with extensions to configure the Razor UI for the hosted services"
+  },
+  "api/WebPx.Web.HealthUI.Razor.Settings.HealthUISettings.html": {
+    "href": "api/WebPx.Web.HealthUI.Razor.Settings.HealthUISettings.html",
+    "title": "Class HealthUISettings | WebPx Web HealthUI",
+    "keywords": "Class HealthUISettings Namespace WebPx.Web.HealthUI.Razor.Settings Assembly WebPx.Web.HealthUI.Razor.dll Class that contains settings for the HealthUI component public sealed class HealthUISettings Inheritance object HealthUISettings Inherited Members object.GetType() object.ToString() object.Equals(object) object.Equals(object, object) object.ReferenceEquals(object, object) object.GetHashCode() Constructors HealthUISettings() Class that contains settings for the HealthUI component public HealthUISettings() Properties BaseUri Gets or sets the base URI for the HealthUI layout page public string? BaseUri { get; set; } Property Value string BootstrapIconPath Gets or sets the path to the bootstrap icon folder public string? BootstrapIconPath { get; set; } Property Value string BootstrapPath Gets or sets the path to the bootstrap folder public string? BootstrapPath { get; set; } Property Value string"
+  },
+  "api/WebPx.Web.HealthUI.Razor.Settings.html": {
+    "href": "api/WebPx.Web.HealthUI.Razor.Settings.html",
+    "title": "Namespace WebPx.Web.HealthUI.Razor.Settings | WebPx Web HealthUI",
+    "keywords": "Namespace WebPx.Web.HealthUI.Razor.Settings Classes HealthUISettings Class that contains settings for the HealthUI component"
+  },
+  "docs/introduction.html": {
+    "href": "docs/introduction.html",
+    "title": "Introduction | WebPx Web HealthUI",
+    "keywords": "Introduction WebPx.Web.HealthUI is a library for displaying a basic health check UI for your web application. The Health Check UI is a basic UI that shows the Sevice Status, the Health Checks and the Health Check Results, so that you can easily see the status of your application. The following scree shot shows the Health Check UI in action."
+  },
+  "docs/license.html": {
+    "href": "docs/license.html",
+    "title": "License | WebPx Web HealthUI",
+    "keywords": "License This project is governed by the following license. If you do not agree to this license, please do not use it. MIT License Copyright (c) 2025 WebPx Technologies Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+  },
+  "index.html": {
+    "href": "index.html",
+    "title": "Getting Started | WebPx Web HealthUI",
+    "keywords": "Getting Started To use the Health Checks in your project you can add both libraries [Microsoft.Extensions.Diagnostics.HealthChecks] and [WebPx.Web.HealthUI] to your project. Add required Nuget packages You can add the required nuget packages to your project file <ItemGroup> <PackageReference Include=\"Microsoft.Extensions.Diagnostics.HealthChecks\" Version=\"9.0.1\" /> <PackageReference Include=\"WebPx.Web.HealthUI\" Version=\"1.0.0\" /> </ItemGroup> Or Install the packages in the Package Manager: install-package Microsoft.Extensions.Diagnostics.HealthChecks install-package WebPx.Web.HealthUI Or Install the packages in the command prompt dotnet add package Microsoft.Extensions.Diagnostics.HealthChecks --version 9.0.1 dotnet add package WebPx.Web.HealthUI --version 1.0.0 Add the depenencies from CDNJS to your libman.json file or create a new libman.json file with the following content { \"version\": \"3.0\", \"defaultProvider\": \"cdnjs\", \"libraries\": [ { \"provider\": \"cdnjs\", \"library\": \"bootstrap@5.3.3\", \"destination\": \"wwwroot/lib/bootstrap/\", \"files\": [ \"js/bootstrap.bundle.min.js\", \"js/bootstrap.bundle.min.js.map\", \"css/bootstrap.min.css\", \"css/bootstrap.min.css.map\" ] }, { \"provider\": \"cdnjs\", \"library\": \"bootstrap-icons@1.11.3\", \"destination\": \"wwwroot/lib/bootstrap-icons/\", \"files\": [ \"font/fonts/bootstrap-icons.woff2\", \"font/fonts/bootstrap-icons.woff\", \"font/bootstrap-icons.min.css\" ] } ] } To customize where the files the template should find them, add the following code to your Program.cs file. Remember just to change the paths if you have a different folder structure, do not include the .css or .js filename builder.Services.AddHealthUI(c => { c.BaseUri = \"/\"; c.BootstrapPath = \"/lib/bootstrap\"; c.BootstrapIconPath = \"/lib/bootstrap-icons\"; }); You can also set this settings in your appsettings.json file { \"WebPx\": { \"Health\": { \"UI\": { \"BaseUri\": \"/\", \"BootstrapPath\": \"/lib/bootstrap\", \"BootstrapIconPath\": \"/lib/bootstrap-icons\" } } } }"
+  }
+}

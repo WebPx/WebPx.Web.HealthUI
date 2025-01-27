@@ -1,0 +1,96 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: Microsoft.Extensions.DependencyInjection
+  name: Microsoft.Extensions.DependencyInjection
+  href: api/Microsoft.Extensions.DependencyInjection.html
+  commentId: N:Microsoft.Extensions.DependencyInjection
+  fullName: Microsoft.Extensions.DependencyInjection
+  nameWithType: Microsoft.Extensions.DependencyInjection
+- uid: Microsoft.Extensions.DependencyInjection.HealthUIRazorConfigurationExtensions
+  name: HealthUIRazorConfigurationExtensions
+  href: api/Microsoft.Extensions.DependencyInjection.HealthUIRazorConfigurationExtensions.html
+  commentId: T:Microsoft.Extensions.DependencyInjection.HealthUIRazorConfigurationExtensions
+  fullName: Microsoft.Extensions.DependencyInjection.HealthUIRazorConfigurationExtensions
+  nameWithType: HealthUIRazorConfigurationExtensions
+- uid: Microsoft.Extensions.DependencyInjection.HealthUIRazorConfigurationExtensions.AddHealthUI(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{WebPx.Web.HealthUI.Razor.Settings.HealthUISettings},Microsoft.Extensions.Configuration.IConfiguration)
+  name: AddHealthUI(IServiceCollection, Action<HealthUISettings>?, IConfiguration?)
+  href: api/Microsoft.Extensions.DependencyInjection.HealthUIRazorConfigurationExtensions.html#Microsoft_Extensions_DependencyInjection_HealthUIRazorConfigurationExtensions_AddHealthUI_Microsoft_Extensions_DependencyInjection_IServiceCollection_System_Action_WebPx_Web_HealthUI_Razor_Settings_HealthUISettings__Microsoft_Extensions_Configuration_IConfiguration_
+  commentId: M:Microsoft.Extensions.DependencyInjection.HealthUIRazorConfigurationExtensions.AddHealthUI(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{WebPx.Web.HealthUI.Razor.Settings.HealthUISettings},Microsoft.Extensions.Configuration.IConfiguration)
+  name.vb: AddHealthUI(IServiceCollection, Action(Of HealthUISettings), IConfiguration)
+  fullName: Microsoft.Extensions.DependencyInjection.HealthUIRazorConfigurationExtensions.AddHealthUI(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.Action<WebPx.Web.HealthUI.Razor.Settings.HealthUISettings>?, Microsoft.Extensions.Configuration.IConfiguration?)
+  fullName.vb: Microsoft.Extensions.DependencyInjection.HealthUIRazorConfigurationExtensions.AddHealthUI(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.Action(Of WebPx.Web.HealthUI.Razor.Settings.HealthUISettings), Microsoft.Extensions.Configuration.IConfiguration)
+  nameWithType: HealthUIRazorConfigurationExtensions.AddHealthUI(IServiceCollection, Action<HealthUISettings>?, IConfiguration?)
+  nameWithType.vb: HealthUIRazorConfigurationExtensions.AddHealthUI(IServiceCollection, Action(Of HealthUISettings), IConfiguration)
+- uid: Microsoft.Extensions.DependencyInjection.HealthUIRazorConfigurationExtensions.AddHealthUI*
+  name: AddHealthUI
+  href: api/Microsoft.Extensions.DependencyInjection.HealthUIRazorConfigurationExtensions.html#Microsoft_Extensions_DependencyInjection_HealthUIRazorConfigurationExtensions_AddHealthUI_
+  commentId: Overload:Microsoft.Extensions.DependencyInjection.HealthUIRazorConfigurationExtensions.AddHealthUI
+  fullName: Microsoft.Extensions.DependencyInjection.HealthUIRazorConfigurationExtensions.AddHealthUI
+  nameWithType: HealthUIRazorConfigurationExtensions.AddHealthUI
+- uid: WebPx.Web.HealthUI.Razor.Settings
+  name: WebPx.Web.HealthUI.Razor.Settings
+  href: api/WebPx.Web.HealthUI.Razor.Settings.html
+  commentId: N:WebPx.Web.HealthUI.Razor.Settings
+  fullName: WebPx.Web.HealthUI.Razor.Settings
+  nameWithType: WebPx.Web.HealthUI.Razor.Settings
+- uid: WebPx.Web.HealthUI.Razor.Settings.HealthUISettings
+  name: HealthUISettings
+  href: api/WebPx.Web.HealthUI.Razor.Settings.HealthUISettings.html
+  commentId: T:WebPx.Web.HealthUI.Razor.Settings.HealthUISettings
+  fullName: WebPx.Web.HealthUI.Razor.Settings.HealthUISettings
+  nameWithType: HealthUISettings
+- uid: WebPx.Web.HealthUI.Razor.Settings.HealthUISettings.#ctor
+  name: HealthUISettings()
+  href: api/WebPx.Web.HealthUI.Razor.Settings.HealthUISettings.html#WebPx_Web_HealthUI_Razor_Settings_HealthUISettings__ctor
+  commentId: M:WebPx.Web.HealthUI.Razor.Settings.HealthUISettings.#ctor
+  name.vb: New()
+  fullName: WebPx.Web.HealthUI.Razor.Settings.HealthUISettings.HealthUISettings()
+  fullName.vb: WebPx.Web.HealthUI.Razor.Settings.HealthUISettings.New()
+  nameWithType: HealthUISettings.HealthUISettings()
+  nameWithType.vb: HealthUISettings.New()
+- uid: WebPx.Web.HealthUI.Razor.Settings.HealthUISettings.#ctor*
+  name: HealthUISettings
+  href: api/WebPx.Web.HealthUI.Razor.Settings.HealthUISettings.html#WebPx_Web_HealthUI_Razor_Settings_HealthUISettings__ctor_
+  commentId: Overload:WebPx.Web.HealthUI.Razor.Settings.HealthUISettings.#ctor
+  name.vb: New
+  fullName: WebPx.Web.HealthUI.Razor.Settings.HealthUISettings.HealthUISettings
+  fullName.vb: WebPx.Web.HealthUI.Razor.Settings.HealthUISettings.New
+  nameWithType: HealthUISettings.HealthUISettings
+  nameWithType.vb: HealthUISettings.New
+- uid: WebPx.Web.HealthUI.Razor.Settings.HealthUISettings.BaseUri
+  name: BaseUri
+  href: api/WebPx.Web.HealthUI.Razor.Settings.HealthUISettings.html#WebPx_Web_HealthUI_Razor_Settings_HealthUISettings_BaseUri
+  commentId: P:WebPx.Web.HealthUI.Razor.Settings.HealthUISettings.BaseUri
+  fullName: WebPx.Web.HealthUI.Razor.Settings.HealthUISettings.BaseUri
+  nameWithType: HealthUISettings.BaseUri
+- uid: WebPx.Web.HealthUI.Razor.Settings.HealthUISettings.BaseUri*
+  name: BaseUri
+  href: api/WebPx.Web.HealthUI.Razor.Settings.HealthUISettings.html#WebPx_Web_HealthUI_Razor_Settings_HealthUISettings_BaseUri_
+  commentId: Overload:WebPx.Web.HealthUI.Razor.Settings.HealthUISettings.BaseUri
+  fullName: WebPx.Web.HealthUI.Razor.Settings.HealthUISettings.BaseUri
+  nameWithType: HealthUISettings.BaseUri
+- uid: WebPx.Web.HealthUI.Razor.Settings.HealthUISettings.BootstrapIconPath
+  name: BootstrapIconPath
+  href: api/WebPx.Web.HealthUI.Razor.Settings.HealthUISettings.html#WebPx_Web_HealthUI_Razor_Settings_HealthUISettings_BootstrapIconPath
+  commentId: P:WebPx.Web.HealthUI.Razor.Settings.HealthUISettings.BootstrapIconPath
+  fullName: WebPx.Web.HealthUI.Razor.Settings.HealthUISettings.BootstrapIconPath
+  nameWithType: HealthUISettings.BootstrapIconPath
+- uid: WebPx.Web.HealthUI.Razor.Settings.HealthUISettings.BootstrapIconPath*
+  name: BootstrapIconPath
+  href: api/WebPx.Web.HealthUI.Razor.Settings.HealthUISettings.html#WebPx_Web_HealthUI_Razor_Settings_HealthUISettings_BootstrapIconPath_
+  commentId: Overload:WebPx.Web.HealthUI.Razor.Settings.HealthUISettings.BootstrapIconPath
+  fullName: WebPx.Web.HealthUI.Razor.Settings.HealthUISettings.BootstrapIconPath
+  nameWithType: HealthUISettings.BootstrapIconPath
+- uid: WebPx.Web.HealthUI.Razor.Settings.HealthUISettings.BootstrapPath
+  name: BootstrapPath
+  href: api/WebPx.Web.HealthUI.Razor.Settings.HealthUISettings.html#WebPx_Web_HealthUI_Razor_Settings_HealthUISettings_BootstrapPath
+  commentId: P:WebPx.Web.HealthUI.Razor.Settings.HealthUISettings.BootstrapPath
+  fullName: WebPx.Web.HealthUI.Razor.Settings.HealthUISettings.BootstrapPath
+  nameWithType: HealthUISettings.BootstrapPath
+- uid: WebPx.Web.HealthUI.Razor.Settings.HealthUISettings.BootstrapPath*
+  name: BootstrapPath
+  href: api/WebPx.Web.HealthUI.Razor.Settings.HealthUISettings.html#WebPx_Web_HealthUI_Razor_Settings_HealthUISettings_BootstrapPath_
+  commentId: Overload:WebPx.Web.HealthUI.Razor.Settings.HealthUISettings.BootstrapPath
+  fullName: WebPx.Web.HealthUI.Razor.Settings.HealthUISettings.BootstrapPath
+  nameWithType: HealthUISettings.BootstrapPath

@@ -1,0 +1,19 @@
+<Project>
+  <PropertyGroup>
+	  <Authors>WebPx Technologies</Authors>
+	  <Company>WebPx Technologies</Company>
+	  <Product>WebPx Web Health UI</Product>
+	  <Description>Minimalistic UI for displaying the health of an application</Description>
+	  <Copyright>(c) WebPx Technologies 2025</Copyright>
+	  <PackageProjectUrl>https://github.com/WebPx/WebPx.Web.HealthUI</PackageProjectUrl>
+	  <PackageTags>WebPx</PackageTags>
+	  <NeutralLanguage>en-US</NeutralLanguage>
+	  <Version>1.0.0.0</Version>
+	  <AssemblyVersion>$(Version)</AssemblyVersion>
+	  <IncludeSymbols>True</IncludeSymbols>
+	  <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+	  <EnforceCodeStyleInBuild>True</EnforceCodeStyleInBuild>
+	  <PublishRepositoryUrl>true</PublishRepositoryUrl>
+	  <IsPackable>true</IsPackable>
+  </PropertyGroup>
+</Project>

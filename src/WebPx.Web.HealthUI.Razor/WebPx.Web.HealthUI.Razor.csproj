@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Razor">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<AddRazorSupportForMvc>true</AddRazorSupportForMvc>
+		<GenerateEmbeddedFilesManifest>true</GenerateEmbeddedFilesManifest>
+		<StaticWebAssetBasePath>hosting</StaticWebAssetBasePath>
+		<GenerateDocumentationFile>True</GenerateDocumentationFile>
+		<Title>WebPx Web HealthUI Razor</Title>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <Compile Remove="HealtthUIRazorConfigurationOptions.cs" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<FrameworkReference Include="Microsoft.AspNetCore.App" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions" Version="9.0.1" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Update="README.md">
+	    <Pack>True</Pack>
+	    <PackagePath>\</PackagePath>
+	  </None>
+	</ItemGroup>
+
+
+	<!--<ItemGroup>
+	  <ProjectReference Include="..\WebPx.Web.HealthUI.Abstractions\WebPx.Web.HealthUI.Abstractions.csproj" />
+	</ItemGroup>-->
+
+</Project>

@@ -1,0 +1,5 @@
+apiRules:
+# - include:
+#     uidRegex: ^WebPx.Web.HealthUI.Razor
+- exclude:
+    uidRegex: ^WebPx.Web.HealthUI.Razor.Areas.HealthInfo.Pages
