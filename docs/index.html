@@ -88,7 +88,7 @@
 <h1 id="getting-started">Getting Started</h1>
 
 <p>To use the Health Checks in your project you can add both libraries
-[Microsoft.Extensions.Diagnostics.HealthChecks] and [WebPx.Web.HealthUI] to your project.</p>
+[Microsoft.Extensions.Diagnostics.HealthChecks] and [WebPx.Web.HealthUI.Razor] to your project.</p>
 <ol>
 <li>Add required Nuget packages</li>
 </ol>
@@ -97,20 +97,20 @@
 </ul>
 <pre><code class="lang-xml">  &lt;ItemGroup&gt;
     &lt;PackageReference Include=&quot;Microsoft.Extensions.Diagnostics.HealthChecks&quot; Version=&quot;8.0.12&quot; /&gt;
-    &lt;PackageReference Include=&quot;WebPx.Web.HealthUI&quot; Version=&quot;1.0.0&quot; /&gt;
+    &lt;PackageReference Include=&quot;WebPx.Web.HealthUI.Razor&quot; Version=&quot;1.0.0&quot; /&gt;
   &lt;/ItemGroup&gt;
 </code></pre>
 <ul>
 <li>Or Install the packages in the Package Manager:</li>
 </ul>
 <pre><code>install-package Microsoft.Extensions.Diagnostics.HealthChecks
-install-package WebPx.Web.HealthUI
+install-package WebPx.Web.HealthUI.Razor
 </code></pre>
 <ul>
 <li>Or Install the packages in the command prompt</li>
 </ul>
 <pre><code>dotnet add package Microsoft.Extensions.Diagnostics.HealthChecks --version 8.0.12
-dotnet add package WebPx.Web.HealthUI --version 1.0.0
+dotnet add package WebPx.Web.HealthUI.Razor --version 1.0.0
 </code></pre>
 <ol start="2">
 <li>Add the depenencies from CDNJS to your libman.json file
